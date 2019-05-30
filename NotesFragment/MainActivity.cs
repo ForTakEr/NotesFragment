@@ -32,7 +32,7 @@ namespace NotesFragment
 
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetActionBar(toolbar);
-            ActionBar.Title = "Notebook";
+            ActionBar.Title = "NotesFragment";
             _mainActivity = this;
         }
 
